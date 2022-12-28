@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunknvs_v4"]=self["webpackChunknvs_v4"]||[]).push([[304,66],{2180:function(e,s,n){n.r(s),n.d(s,{default:function(){return c}});var r=function(){var e=this,s=e._self._c;return s("div",[s("user-register-view")],1)},t=[],i=n(3281),u={name:"TestsView",components:{UserRegisterView:()=>Promise.resolve().then(n.bind(n,3281))},data:()=>({UserRegisterView:i["default"]})},l=u,a=n(1001),v=(0,a.Z)(l,r,t,!1,null,null,null),c=v.exports}}]);
-//# sourceMappingURL=views-TestsView.dbda5e84.js.map
