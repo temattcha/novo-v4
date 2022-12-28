@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
+<head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -15,17 +15,18 @@
   <noscript>Please enable JavaScript to continue.</noscript>
   <div id="app"></div>
   <script defer="defer" src="/js/chunk-vendors.d1fd8eb4.js"></script>
-  <script defer="defer" src="/js/app.eb09a90a.js"></script>
+  <script defer="defer" src="/js/app.4793b35f.js"></script>
   <script>
-  (function (l) {
-    if (l.search[1] === '/') {
-      var decoded = l.search.slice(1).split('&').map(function (s) {
-        return s.replace(/~and~/g, '&')
-      }).join('?');
-      window.history.replaceState(null, null,
-        l.pathname.slice(0, -1) + decoded + l.hash
-      )
-    }
-  }(window.location))</script>
+    (function (l) {
+      if (l.search[1] === '/') {
+        var decoded = l.search.slice(1).split('&').map(function (s) {
+          return s.replace(/~and~/g, '&')
+        }).join('?');
+        window.history.replaceState(null, null,
+          l.pathname.slice(0, -1) + decoded + l.hash
+        )
+      }
+    }(window.location))
+  </script>
 </body>
 </html>
